@@ -1,5 +1,5 @@
 # Self-tuning Q-ensembles (STQE): Using Monte-Carlo Estimates for Adaptive Overestimation Bias Reduction
-Implementation of the Monte-Carlo Estimates on state-of-the-art reinforcement learning algorithms and deep neural networks, using Python PyTorch and NumPy. Testing was conducted on the OpenAI Gym test environment.
+Implementation of the Monte-Carlo Estimates on state-of-the-art reinforcement learning algorithms and deep neural networks, using Python's PyTorch, NumPy and Matplotlib libraries. Testing was conducted on the OpenAI Gym test environment.
 
 The objective of this project is to combine two effective algorithms: Aggressive Q-Learning with Ensembles (AQE) that utilizes Q-ensembles with Adaptively Calibrated Critic Estimates (ACC) that auto-tunes the quantile of chosen critics during the training, such that the resulting algorithm, Self-tuning Q-ensembles (STQE), can adjust the number of critics used to calculate the temporal difference (TD) target automatically throughout the training process.
 
